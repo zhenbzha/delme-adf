@@ -1,0 +1,16 @@
+{
+	"name": "readme_github_dest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLS_github",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation"
+			}
+		}
+	}
+}
