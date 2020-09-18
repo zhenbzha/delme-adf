@@ -1,0 +1,12 @@
+{
+	"name": "HttpLS",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://people.sc.fsu.edu/~jburkardt/data/csv/",
+			"enableServerCertificateValidation": false,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
