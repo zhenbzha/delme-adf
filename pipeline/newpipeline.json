@@ -1,6 +1,7 @@
 {
 	"name": "newpipeline",
 	"properties": {
+		"description": "new pipeline",
 		"activities": [
 			{
 				"name": "copy csv",
