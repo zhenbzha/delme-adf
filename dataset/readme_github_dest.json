@@ -13,5 +13,6 @@
 				"container": "dest"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
