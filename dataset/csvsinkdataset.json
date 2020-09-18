@@ -1,0 +1,21 @@
+{
+	"name": "csvsinkdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLS_github",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "dest"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
