@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageLS_github'"
 		},
+		"HttpLS_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://people.sc.fsu.edu/~jburkardt/data/csv/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -40,6 +44,9 @@
 					},
 					"AzureBlobStorageLS_github_connectionString": {
 						"value": "[parameters('AzureBlobStorageLS_github_connectionString')]"
+					},
+					"HttpLS_properties_typeProperties_url": {
+						"value": "[parameters('HttpLS_properties_typeProperties_url')]"
 					}
 				}
 			},

@@ -8,6 +8,9 @@
 		"AzureBlobStorageLS_github_connectionString": {
 			"value": ""
 		},
+		"HttpLS_properties_typeProperties_url": {
+			"value": "https://people.sc.fsu.edu/~jburkardt/data/csv/"
+		},
 		"containerUri": {
 			"value": ""
 		},
